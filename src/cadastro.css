@@ -1,0 +1,39 @@
+#botaoOk {
+  width: 140px;
+  height: 60px;
+  background: linear-gradient(to left, #4c6d8d, #86c9eb);
+  cursor: pointer;
+  color: rgb(194, 236, 245);
+  font-size: 0.9rem;
+  font-weight: 300;
+  border-radius: 25px;
+  transition: all 0.5s ease;
+}
+
+#botaoOk:hover {
+  letter-spacing: 0.5px;
+  background: linear-gradient(to right, #9cd7e9, #9dd9f7);
+  color: black;
+  font-size: 1.2rem;
+  width: 180px;
+  height: 70px;
+}
+
+label {
+  color: rgb(12, 12, 12);
+  font-size: 1.2rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.formulario {
+  width: 350px;
+  height: 25px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+form {
+  margin-top: 4%;
+}

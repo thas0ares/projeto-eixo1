@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com./css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="login_estilo.css" />
+
+</head>
+    
+    <main class="container">
+        <h1><strong>Login</strong></h1>
+     <form action="">
+        <div class="usuario">
+            <input type="text" name="cName" id="tName" required
+                placeholder="Usuário">
+            <div class="underline"></div>
+        </div>
+        <div class="senha">
+            <input type="password" name="cSenha" id="tSenha" required
+                placeholder="Senha">
+            <div class="underline"></div>
+        </div>
+        <input onclick="verificarCliente()" type="submit" value="Entrar">
+        
+    <div class="footer"></div>
+        <span>Cadastre-se</span><br>
+        <div class="field">
+            <div class="fieldcad">
+                <a href="#">
+            </div>
+        </div>
+        <span>Esqueceu a senha ?</span>
+        <div class="field">
+            <div class="fieldesqueceu">
+                <a href="#">
+            </div>
+        </div>
+    </div> 
+    </main>
+   <!-- <script> // script para cadastro de cliente
+        function verificarCliente(){
+            var usuario=document.getElementById('tName').value 
+            var senha=document.getElementById('tSenha').value
+            var obj=[
+                {
+                    'Nome': usuario,
+                    'Senha': senha
+                }
+            ]
+            var strobj=JSON.stringify(obj)
+            localStorage.setItem('registrocliente', strobj)
+        }
+    </script>-->
+</body>
+</html>

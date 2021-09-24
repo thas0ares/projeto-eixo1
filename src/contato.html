@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Home page Realoca+</title>
+    <link href="https://fonts.googleapis.com./css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index_estilo.css" />
+    <link rel="stylesheet" type="text/css" href="contato_estilo.css" />
+    
+    <script src="dbfake.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="indexRealoca+.html">
+                <img src="../img/realoca+_logo.png" alt="Logo"/>
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#50+">50+</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="#empresas">Empresas</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="autenticacao">
+            <a href="loginRealoca.html" class="botao destaque">Entrar</a>
+            <a href="cadastro.html" class="botao destaque">Cadastre-se</a>
+        </aside>        
+    </header>
+
+    <div class="row">
+        <form action="https://api.staticforms.xyz/submit" method="POST" class="card">
+            <input type="hidden" name="accessKey" value="4d597805-e162-4da4-b97d-72f202a054b4">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/indexRealoca+.html">
+
+            <h2>Entre em contato conosco</h2>
+            <label form="inputNome">Nome</label>
+            <input type="text" id="inputNome" name="name" required>
+            
+
+            <label form="inputEmail">Endereço de Email</label>
+            <input type="email" id="inputEmail" name="email" required>
+            
+
+            <label form="texteareaMensagem">Mensagem</label>
+            <textarea name="message" id="texteareaMensagem" required></textarea>
+            
+
+            <button>Enviar Mensagem</button>
+
+        </form>
+    </div>
+   </body>
+
+</html>

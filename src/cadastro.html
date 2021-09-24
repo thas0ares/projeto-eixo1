@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <title>Home page Realoca+</title>
+    <link href="https://fonts.googleapis.com./css?family=Oswald" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="index_estilo.css" />
+    <link rel="stylesheet" type="text/css" href="contato_estilo.css" />
+    <link rel="stylesheet" type="text/css" href="cadastro.css" />
+    
+    <script src="dbfake.js"></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <a href="indexRealoca+.html">
+                <img src="../img/realoca+_logo.png" alt="Logo"/>
+            </a>
+        </div>
+        <button class="menu-toggle">
+            <i class="fa fa-lg fa-bars"></i>
+        </button>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#50+">50+</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre</a>
+                </li>
+                <li>
+                    <a href="#empresas">Empresas</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+        <aside class="autenticacao">
+            <a href="loginRealoca.html" class="botao destaque">Entrar</a>
+            <a href="cadastro.html" class="botao destaque">Cadastre-se</a>
+            
+        </aside>        
+    </header>
+    <form >
+
+        <label for="campoNome" id="campoNomelabel">Nome</label>
+        <input type="text"  class="formulario" id="campoNome" ></input><br>
+        
+        <label for="campoNascimento">Data de Nascimento</label>
+        <input type="text" class="formulario" id="campoNascimento" placeholder="DD/MM/AAAA" ></input><br>   
+        
+        <label for="campoCidade">Cidade</label>
+        <input type="text" class="formulario" id="campoCidade" ></input><br>
+
+        <label for="campoEstado">Estado</label>
+        <input type="text" class="formulario" id="campoEstado" ></input><br>
+    
+        <label for="campoPais">País</label>
+        <input type="text" class="formulario" id="campoPais" ></input><br>
+
+        <label for="campoCpf">CPF</label>
+        <input type="text" class="formulario" id="campoCpf" ></input><br>
+
+        <label for="campoTelefone">Telefone</label>
+        <input type="text" class="formulario" id="campoTelefone" placeholder="(XX)XXXXX-XXXX"></input><br>
+
+        <label for="campoEmail" >Email</label>
+        <input type="text" class="formulario" id="campoEmail" ></input>
+
+        <label for="campoSenha">Senha</label>
+        <input type="password" class="formulario" id="campoSenha" ></input><br>
+
+        <input type="button" class="botaoCadastrar" value="Cadastrar" id="botaoOk"></input>
+        
+          </form>
+            <script src="cadastro.js"></script>
+      </body>
